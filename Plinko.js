@@ -4,7 +4,7 @@ class Plinko{
          isStatic: true
       }
       this.body = Bodies.circle(x,y,10,options);
-      this.radius = 20;
+      this.radius = 15;
       World.add(world,this.body);
     }
     display(){
