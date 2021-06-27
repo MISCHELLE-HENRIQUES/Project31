@@ -12,7 +12,7 @@ function setup() {
   createCanvas(800, 800);
   engine = Engine.create();
   world = engine.world;
-  ground = new Ground(height,width,20);
+  ground = new Ground(width/2,height,width,20);
 
 
    for (var k = 0; k <=width; k = k + 80) {
